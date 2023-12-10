@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Icon library -->
+	<script src="https://kit.fontawesome.com/8f8d498a4c.js" crossorigin="anonymous"></script>
+	
+	<!--CSS file link-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	
+	<!-- jQuery CDN-->
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	
+	<!--connecting to an external javascript-->
+	<script src="js/script.js"></script>
+	
+	<title>Zari Reviews | Contact</title>
+	
+</head>
+<body>
+<a id="top"></a> <!-- Anchor -->
+
+	<div id="top_header">
+		<img id="logo" src="images/duck.gif">
+		<h1 id="zarireviews">Zari Reviews</h1>
+	</div>
+	
+	<!--NAV FOR BROWSER
+	<nav id="navbar">
+		<a href="">Games</a>
+		<a href="">Media</a>
+		<a href="books.html">Books</a>
+		<a href="">About Us</a>
+	</nav>-->
+	
+	<!--NAV DROPDOWN FOR MOBILE-->
+	<div class="topnav" id="myTopnav">
+	  <a href="#home" class="active">Home</a>
+	  <div class="dropdown">
+		<button class="dropbtn">Games
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="#">Video Games</a>
+		  <a href="#">Card Games</a>
+		  <a href="#">Board Games</a>
+		</div>
+	  </div>
+	  <div class="dropdown">
+		<button class="dropbtn">Media
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="movies.html">Movies</a>
+		  <a href="anime.html">Anime</a>
+		  <a href="cartoons.html">Cartoons</a>
+		</div>
+	  </div>
+	  <a href="books.html">Books</a>
+	  <a href="about.html">About</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	
+	<!--BACK TO THE TOP BUTTON-->
+	 <a href="#top"><button id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button></a>
+
+
+	<!-- MAIN CONTENT-->
+	<main id="contact">
+		<h1 class="header">Contact Us</h1>
+		
+		<p> Want us to review something? Send us a message!</p>
+		
+		<form action="#" method="post">
+			<label for="name">First Name:</label>
+			<input type="text" id="fname" name="fname" required>
+			
+			<label for="name">Last Name:</label>
+			<input type="text" id="lname" name="lname" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="subject">Subject:</label>
+			<input type="subject" id="subject" name="subject" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Send">
+		</form>
+		
+	</main>
+
+</body>
+</html>

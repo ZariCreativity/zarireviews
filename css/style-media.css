@@ -1,0 +1,358 @@
+body {
+	background: #f892dd;
+	font-family: Arial;
+}
+
+#logo {
+	width: 75px;
+	height: 70px;
+}
+
+#zarireviews, #logo {
+	display: inline-block;
+	font-size: 70px;
+}
+
+p {
+	color: #f56476;
+}
+
+.space-out {
+	display: inline-block;
+}
+
+/* NAVIGATION BAR-------------------------------------------------------*/	
+#navbar {
+	background: #009FB7;
+	padding: 10px;
+	padding-left: 60%;
+	font-size: 20px;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%;
+
+}
+
+#navbar a{
+	margin-right: 20px;
+	font: #131B23;
+	text-decoration-line: none;
+}
+
+
+/* NAVIGATION DROPDOWN-------------------------------------------------------*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #5887ff;
+	overflow: hidden;
+	width: 100%;
+	
+	/*When I made it sticky that messed up the dropdown menu...*/
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #131B23;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #f56476;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: #131B23;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E9F1F7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*BACK TO THE TOP BUTTON-------------------------------------------------------*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #f56476; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*MAIN CONTENT-------------------------------------------------------*/
+
+main {
+	background: #d4f2d2;
+	margin: auto;
+	padding: 30px;
+	width: 75%;
+}
+
+h1 {
+	color: #102e4a;
+	margin: auto;
+	text-align: center;
+}
+
+/* HOME PAGE CONTENT----------------------------------------------- */
+.question {
+	font-weight: bold;
+}
+
+.answer {
+	font-style: italic;
+}
+
+/* ABOUT PAGE-------------------------------------------------------*/
+
+.about-box {
+	margin-bottom: 20px;
+}
+
+.about, .team-member {
+	display: inline-block;
+}
+
+.about {
+	width: 50%;
+	margin-right: 10px;
+}
+
+.team-member {
+	float: right;
+	width: 40%;
+	height: 50%;
+	margin: 10px;
+}
+
+.socials i {
+	color: #009FB7;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* CONTACT PAGE --------------------------------------------------------------------*/
+
+#contact p {
+	margin: auto;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="subject"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* LIST PAGE------------------------------------------------------------------------*/
+
+.categories {
+	font-size: 20px;
+	line-height: 2;
+	margin-left: 10%;
+}
+
+.TBA {
+	margin: auto;
+	margin-left: 13%;
+	font-style: italic;
+}
+
+
+/* SMALLER SCREEN RESOLUTIONS-------------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+	.space-out {
+		display: none;
+	}
+	
+	h1 {
+		font-size: 20px;
+	}
+	
+	#zarireviews, #logo {
+		display: none;
+	}
+	
+	#navbar {
+		display: none;
+	}
+	
+	.topnav a, .dropdown .dropbtn {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+	
+	/*The following only works after the "responsive" class has been
+	added to topnav via JavaScript when the user clicks on the icon*/
+	.topnav.responsive {
+		position: relative;
+	}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+  
+  /* ABOUT PAGE-------------------------------------------------------*/
+
+
+	.about, .team-member {
+		display: block;
+	}
+
+	.about {
+		margin: auto;
+		width: 80%;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.team-member {
+		margin: auto;
+		padding: 10px;
+		float: none;
+		width: 50%;
+		height: 60%;
+	}
+	
+	.socials {
+		margin: auto;
+		width: 50%;
+	}
+	
+	/* LIST PAGE------------------------------------------------------------------------*/
+
+	.categories {
+		font-size: 16px;
+		margin: auto;
+		margin-left: 25%;
+	}
+	
+	.TBA {
+		margin: auto;
+		margin-left: 25%;
+	}
+	
+}
