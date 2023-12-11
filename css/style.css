@@ -166,12 +166,53 @@ h1 {
 }
 
 /* HOME PAGE CONTENT----------------------------------------------- */
+
+.header {
+	clear: both;
+}
+
+#latest-reviews-container {
+	margin: auto;
+	width: 80%;
+}
+
+.latest-review-item {
+	float: left;
+	margin: 20px;
+}
+	
+.latest-poster {
+	width: 100px;
+	height: 150px;
+}
+
+a img:hover {
+	width: 110px;
+	height: 160px;
+}
+
+.rating i {
+	color: #FFC90E;
+}
+
+
+/* Q&A */
+
 .question {
 	font-weight: bold;
 }
 
 .answer {
 	font-style: italic;
+}
+
+.answer a {
+	text-decoration: none;
+}
+
+.answer a:hover {
+	color: #009FB7;
+	text-decoration: underline;
 }
 
 /* ABOUT PAGE-------------------------------------------------------*/
@@ -314,6 +355,12 @@ input[type="submit"]:hover {
 		display: block;
 		width: 100%;
 		text-align: left;
+	}
+	
+  /* MAIN PAGE-------------------------------------------------------*/	
+	.latest-review-item {
+		float: none;
+		margin: 20px;
 	}
   
   /* ABOUT PAGE-------------------------------------------------------*/

@@ -164,108 +164,62 @@ h1 {
 	text-align: center;
 }
 
-/* HOME PAGE CONTENT----------------------------------------------- */
-.question {
+/* MEDIA----------------------------------------------------------------------------*/
+
+.table-of-contents a {
+	color: #f56476;
+	text-decoration: none;
+}
+
+.table-of-contents a:hover {
+	color: #55c1ff;
+	text-decoration: underline;
+}
+
+.header {
+	margin-bottom: 30px;
+}
+
+.review {
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.title {
+	color: #102e4a;
 	font-weight: bold;
+	font-size: 23px;
+	float: left;
 }
 
-.answer {
-	font-style: italic;
-}
-
-/* ABOUT PAGE-------------------------------------------------------*/
-
-.about-box {
-	margin-bottom: 20px;
-}
-
-.about, .team-member {
-	display: inline-block;
-}
-
-.about {
-	width: 50%;
-	margin-right: 10px;
-}
-
-.team-member {
+.poster {
+	width: 30%;
 	float: right;
-	width: 40%;
-	height: 50%;
+	margin: 20px;
+	border: 5px;
+	border-color: #102e4a;
+}
+
+.rating {
+	clear: left;
+	float: left;
 	margin: 10px;
 }
 
-.socials i {
-	color: #009FB7;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-/* CONTACT PAGE --------------------------------------------------------------------*/
-
-#contact p {
-	margin: auto;
-	width: 50%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-form {
-    width: 60%;
-    margin: 0 auto;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="subject"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #3e8e41;
-}
-
-/* LIST PAGE------------------------------------------------------------------------*/
-
-.categories {
+.rating i {
+	color: #FFC90E;
 	font-size: 20px;
-	line-height: 2;
-	margin-left: 10%;
 }
 
-.TBA {
-	margin: auto;
-	margin-left: 13%;
-	font-style: italic;
+.review-content {
+	clear: left;
 }
 
 
-/* SMALLER SCREEN RESOLUTIONS-------------------------------------------------------*/
+
+
+/* SMALLER SCREEN RESOLUTIONS----------------------------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
 	.space-out {
@@ -315,44 +269,29 @@ input[type="submit"]:hover {
 		text-align: left;
 	}
   
-  /* ABOUT PAGE-------------------------------------------------------*/
-
-
-	.about, .team-member {
-		display: block;
-	}
-
-	.about {
-		margin: auto;
-		width: 80%;
-		text-align: center;
-		padding-bottom: 20px;
-	}
-
-	.team-member {
-		margin: auto;
-		padding: 10px;
+	/*MEDIA---------------------------------------------------------*/
+	
+	.title {
 		float: none;
-		width: 50%;
-		height: 60%;
-	}
-	
-	.socials {
 		margin: auto;
 		width: 50%;
+		text-align: center;
+		margin-bottom: 10px;
 	}
 	
-	/* LIST PAGE------------------------------------------------------------------------*/
-
-	.categories {
-		font-size: 16px;
-		margin: auto;
-		margin-left: 25%;
+	.poster {
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
 	}
 	
-	.TBA {
-		margin: auto;
-		margin-left: 25%;
+	.rating {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
 	}
 	
 }

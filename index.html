@@ -29,28 +29,27 @@
 	
 	<!--NAV DROPDOWN FOR MOBILE-->
 	<div class="topnav" id="myTopnav">
-	  <a href="#home" class="active">Home</a>
+	  <a href="#" class="active">Home</a>
 	  <div class="dropdown">
 		<button class="dropbtn">Games
 		  <i class="fa fa-caret-down"></i>
 		</button>
 		<div class="dropdown-content">
-		  <a href="#">Video Games</a>
-		  <a href="#">Card Games</a>
-		  <a href="#">Board Games</a>
+		  <a href="video-games.html">Video Games</a>
+		  <a href="card-games.html">Card Games</a>
 		</div>
 	  </div>
 	  <div class="dropdown">
 		<button class="dropbtn">Media <i class="fa fa-caret-down"></i>
 		</button>
 		<div class="dropdown-content">
-		  <a href="#">Movies</a>
-		  <a href="#">Anime</a>
-		  <a href="#">Cartoons</a>
+		  <a href="dramas.html">Dramas</a>
+		  <a href="anime.html">Anime</a>
+		  <a href="cartoons.html">Cartoons</a>
 		</div>
 	  </div>
-	  <a href="#about">Books</a>
-	  <a href="./about">About</a>
+	  <a href="books.html">Books</a>
+	  <a href="about.html">About</a>
 	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</div>
 	
@@ -62,58 +61,107 @@
 	<main>
 		<h1 class="header">Welcome to Zari Reviews!</h1>
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec massa scelerisque ex sodales ullamcorper et non ligula. Etiam vestibulum, velit non placerat commodo, felis lectus maximus massa, at imperdiet tellus purus in urna. Cras dignissim eros eget elementum tempor. Integer euismod nec libero ut scelerisque. Curabitur tristique semper elit sed tincidunt. Pellentesque vitae dolor sit amet dui pulvinar volutpat. </p>
+		<p>This is a website dedicated to providing honest and thorough reviews regarding multiple types of media. At the moment, there aren't many reviews on the website but there are more to come so stay tuned!</p>
 		
+		<!-- LATEST REVIEWS -->
 		<h2 class="header">Latest Reviews</h2>
 		
-		<!--Insert a grid or flex box of images, their stars and "See Review" here-->
-		<p>[Insert a grid or flex box of images, their stars and "See Review" here]</p>
+		<div id="latest-reviews-container">
+			<table class="latest-review-item" id="review1">
+				<tr>
+					<td><a href="books.html#fawks"><img class="latest-poster" src="images/fawks.jpg"></a></td>
+				</tr>
+				<tr>
+					<td class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</td>
+				</tr>
+			</table>
+			
+			<table class="latest-review-item" id="review2">
+				<tr>
+					<td><a href="dramas.html#strong-woman"><img class="latest-poster" src="images/strong-woman.jpg"></a></td>
+				</tr>
+				<tr>
+					<td class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</td>
+				</tr>
+			</table>
+			
+			<table class="latest-review-item" id="review3">
+				<tr>
+					<td><a href="cartoons.html#hilda"><img class="latest-poster" src="images/hilda.jpg"></a></td>
+				</tr>
+				<tr>
+					<td class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</td>
+				</tr>
+			</table>
+			
+			<table class="latest-review-item" id="review4">
+				<tr>
+					<td><a href="books.html#westing-game"><img class="latest-poster" src="images/westing-game.png"></a></td>
+				</tr>
+				<tr>
+					<td class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</td>
+				</tr>
+			</table>
+			
+			<table class="latest-review-item" id="review5">
+				<tr>
+					<td><a href="anime.html#oshi-no-ko"><img class="latest-poster" src="images/oshi-no-ko.jpg"></a></td>
+				</tr>
+				<tr>
+					<td class="rating">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</td>
+				</tr>
+			</table>
+			
+		</div>
 		
 		<h2 class="header">FAQ</h2>
 		<ul>
 			<li>
-				<p class="question">Why?</p>
-				<p class="answer">Because</p>
+				<p class="question">Who writes the reviews?</p>
+				<p class="answer">All of the reviews on this website are written by a single person: Azaria Dunston. So take these reviews with a grain of salt as they are written from the subjective perspective of a single person.</p>
 			</li>
 			<li>
-				<p class="question">When?</p>
-				<p class="answer">Later</p>
+				<p class="question">How often are new reviews posted?</p>
+				<p class="answer">Reviews are posted whenever Azaria has the time to. She is very busy with school and life.</p>
 			</li>
 			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
+				<p class="question">Will you please write a review of [insert show/game]?</p>
+				<p class="answer">Send me a message via our <a href="contact.html">contact page</a> and I'll see what I can do. However, I cannot make promises.</p>
 			</li>
 			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
+				<p class="question">What is your criteria for rankings?</p>
+				<p class="answer">For books, I rate based on the story progression, themes, writing style, emersion, and creativity. <br>
+				For dramas, the cinematography, actors' skill, themes, and writing<br>
+				For cartoons, I rate based on the animation quality and creativity, voice acting, writing</p>
 			</li>
 			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
-			</li>
-			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
-			</li>
-			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
-			</li>
-			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
-			</li>
-			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
-			</li>
-			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
-			</li>
-			<li>
-				<p class="question">How?</p>
-				<p class="answer">...idk XD</p>
+				<p class="question">Can you hire me to write reviews?</p>
+				<p class="answer">Send me a message via our <a href="contact.html">contact page</a> and we can discuss it. I'd love to have more help!</p>
 			</li>
 		</ul>
 	</main>

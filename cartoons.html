@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Icon library -->
+	<script src="https://kit.fontawesome.com/8f8d498a4c.js" crossorigin="anonymous"></script>
+	
+	<!--CSS file link-->
+	<link href="css/style-media.css" rel="stylesheet" type="text/css" />
+	
+	<!-- jQuery CDN-->
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	
+	<!--connecting to an external javascript-->
+	<script src="js/script.js"></script>
+	
+	<title>Zari Reviews | Cartoons</title>
+	
+</head>
+<body class="media">
+<a id="top"></a> <!-- Anchor -->
+
+	<div id="top_header">
+		<img id="logo" src="images/duck.gif">
+		<h1 id="zarireviews">Zari Reviews</h1>
+	</div>
+	
+	<!--NAV DROPDOWN FOR MOBILE-->
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html" class="active">Home</a>
+	  <div class="dropdown">
+		<button class="dropbtn">Games
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="video-games.html">Video Games</a>
+		  <a href="card-games.html">Card Games</a>
+		</div>
+	  </div>
+	  <div class="dropdown">
+		<button class="dropbtn">Media <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="dramas.html">Dramas</a>
+		  <a href="anime.html">Anime</a>
+		  <a href="#">Cartoons</a>
+		</div>
+	  </div>
+	  <a href="books.html">Books</a>
+	  <a href="about.html">About</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	
+	<!--BACK TO THE TOP BUTTON-->
+	 <a href="#top"><button id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button></a>
+
+
+	<!-- MAIN CONTENT-->
+	<main id="media">
+		<h1 class="header">Cartoons</h1>
+		
+		<!-- Table of Contents -->
+		<ul class="table-of-contents">
+			<li><a href="#hilda">Hilda</a></li>
+			<li><a href="#infinity-train">Infinity Train</a></li>
+			<li><a href="#mlp">My Little Pony: Friendship is Magic</a></li>
+		</ul>
+		
+		<!-- Reviews -->
+		<section class="review" id="hilda">
+			<header class="title">Hilda</header>
+			<br>
+			<img class="poster" src="images/hilda.jpg">
+			<div class="rating">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+			<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec massa scelerisque ex sodales ullamcorper et non ligula. Etiam vestibulum, velit non placerat commodo, felis lectus maximus massa, at imperdiet tellus purus in urna. Cras dignissim eros eget elementum tempor. Integer euismod nec libero ut scelerisque. Curabitur tristique semper elit sed tincidunt. Pellentesque vitae dolor sit amet dui pulvinar volutpat. <br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec massa scelerisque ex sodales ullamcorper et non ligula. Etiam vestibulum, velit non placerat commodo, felis lectus maximus massa, at imperdiet tellus purus in urna. Cras dignissim eros eget elementum tempor. Integer euismod nec libero ut scelerisque. Curabitur tristique semper elit sed tincidunt. Pellentesque vitae dolor sit amet dui pulvinar volutpat.</p>
+		</section>
+		
+		<section class="review" id="infinity-train">
+			<header class="title">Infinity Train</header>
+			
+			<img class="poster" src="images/infinity-train.png">
+			<div class="rating">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+			<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec massa scelerisque ex sodales ullamcorper et non ligula. Etiam vestibulum, velit non placerat commodo, felis lectus maximus massa, at imperdiet tellus purus in urna. Cras dignissim eros eget elementum tempor. Integer euismod nec libero ut scelerisque. Curabitur tristique semper elit sed tincidunt. Pellentesque vitae dolor sit amet dui pulvinar volutpat. <br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec massa scelerisque ex sodales ullamcorper et non ligula. Etiam vestibulum, velit non placerat commodo, felis lectus maximus massa, at imperdiet tellus purus in urna. Cras dignissim eros eget elementum tempor. Integer euismod nec libero ut scelerisque. Curabitur tristique semper elit sed tincidunt. Pellentesque vitae dolor sit amet dui pulvinar volutpat.</p>
+		</section>
+		
+		<section class="review" id="mlp">
+			<header class="title">My Little Pony: Friendship</header>
+			
+			<img class="poster" src="images/mlp.jpg">
+			<div class="rating">
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+			</div>
+			<p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec massa scelerisque ex sodales ullamcorper et non ligula. Etiam vestibulum, velit non placerat commodo, felis lectus maximus massa, at imperdiet tellus purus in urna. Cras dignissim eros eget elementum tempor. Integer euismod nec libero ut scelerisque. Curabitur tristique semper elit sed tincidunt. Pellentesque vitae dolor sit amet dui pulvinar volutpat. <br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec massa scelerisque ex sodales ullamcorper et non ligula. Etiam vestibulum, velit non placerat commodo, felis lectus maximus massa, at imperdiet tellus purus in urna. Cras dignissim eros eget elementum tempor. Integer euismod nec libero ut scelerisque. Curabitur tristique semper elit sed tincidunt. Pellentesque vitae dolor sit amet dui pulvinar volutpat.</p>
+		</section>
+		
+		<div class="space-out">
+			<br><br><br><br><br>
+			<br><br><br><br><br>
+			<br><br><br><br><br>
+		</div>
+		
+	</main>
+
+</body>
+</html>
